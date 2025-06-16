@@ -65,6 +65,6 @@ Veri seti `train.csv` adlı dosyadan alınmıştır ve aşağıdaki sütunları 
 ## 👨‍💻 Geliştirici
 
 - Yasin Bağrıaçık  
-- [GitHub Profilim]([https://github.com/yassinbagriacik])
+- [GitHub Profilim](https://github.com/yassinbagriacik)
 
 ---

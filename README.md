@@ -27,6 +27,17 @@ Veri analizi Google Colab ortamında gerçekleştirilmiş, sonuçlar grafiklerle
 
 ![Top5_SubCategories](superstore_v3_chart.png)
 
+### ✅ v4: Bölgesel Satış ve Teslimat Süresi Analizi
+
+#### 📍 Bölgelere Göre Toplam Satış
+
+![Region_Sales](region_sales_v4_chart.png)
+
+#### ⏱️ Sipariş ile Gönderim Arası Gün Sayısı
+
+![Delivery_Days](delivery_days_v4_chart.png)
+
+
 ## 🔍 Kullanılan Teknolojiler
 
 - Python 🐍

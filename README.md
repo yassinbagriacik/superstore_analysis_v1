@@ -14,11 +14,13 @@ Veri analizi Google Colab ortamında gerçekleştirilmiş, sonuçlar grafiklerle
 - CSV dosyası yüklendi
 - İlk 5 satır ve sütunlar incelendi
 
+
 ### ✅ v2: Aylık Satış Analizi
 - `Order Date` sütunu datetime formatına çevrildi
 - Aylık toplam satışlar hesaplandı ve grafik çizildi
 
 ![sales_chart](superstore_v2_aylik_satis_grafigi.png)
+
 
 ### ✅ v3: En Çok Satılan 5 Alt Kategori
 
@@ -26,6 +28,7 @@ Veri analizi Google Colab ortamında gerçekleştirilmiş, sonuçlar grafiklerle
 - En yüksek satışa sahip 5 kategori belirlendi
 
 ![Top5_SubCategories](superstore_v3_chart.png)
+
 
 ### ✅ v4: Bölgesel Satış ve Teslimat Süresi Analizi
 
@@ -36,6 +39,27 @@ Veri analizi Google Colab ortamında gerçekleştirilmiş, sonuçlar grafiklerle
 #### ⏱️ Sipariş ile Gönderim Arası Gün Sayısı
 
 ![Delivery_Days](delivery_days_v4_chart.png)
+
+
+### ✅ v5: Aylık Satışlar, Bölgesel Segment Analizi ve KPI Raporu
+
+#### 📈 Aylara Göre Satış Trendleri
+
+![monthly_sales_v5_chart.png](monthly_sales_v5_chart.png)
+
+#### 🗺️ Segment & Bölge Kırılımında Satış Performansı
+
+![segment_region_heatmap_v5.png](segment_region_heatmap_v5.png)
+
+#### 📊 Özet KPI Raporu
+
+| Metrik                 | Değer           |
+|------------------------|-----------------|
+| Toplam Satış           | $2261536.78     |
+| Toplam Sipariş         | 4922            |
+| Ortalama Sipariş Tutarı| $459.48         |
+| Toplam Müşteri         | 793             |
+| Ortalama Teslim Süresi | 107.01 gün      |
 
 
 ## 🔍 Kullanılan Teknolojiler
@@ -68,9 +92,7 @@ Veri analizi Google Colab ortamında gerçekleştirilmiş, sonuçlar grafiklerle
 ## 📌 Notlar
 
 - Bu analiz, başlangıç düzeyinde veri görselleştirme ve zaman serisi analizi çalışmasıdır.
-- Daha ileri analizler (ortalama teslim süresi, segment bazlı müşteri analizi vb.) bir sonraki sürümde planlanmaktadır.
 
----
 
 ## 👨‍💻 Geliştirici
 

@@ -1,12 +1,31 @@
-# superstore_analysis_v1
-Python ile Superstore veri analizi
+# 🛒 Superstore Satış Analizi
 
-# 📊 Superstore Satış Analizi - v2
-
-Bu proje, Superstore satış verileri üzerinde yapılan temel veri analizi çalışmasını içermektedir.  
+Bu proje, bir süpermarketin satış verileri üzerinden çeşitli analizleri içermektedir.
+Superstore satış verileri üzerinde yapılan temel veri analizi çalışmasını içermektedir.  
 Veri analizi Google Colab ortamında gerçekleştirilmiş, sonuçlar grafiklerle desteklenmiştir.
 
----
+## 📁 Veri Seti
+
+- `train.csv`: Satış verilerini içerir.
+
+## 📊 Yapılan Analizler
+
+### ✅ v1: İlk Dosya Yükleme ve İnceleme
+- CSV dosyası yüklendi
+- İlk 5 satır ve sütunlar incelendi
+
+### ✅ v2: Aylık Satış Analizi
+- `Order Date` sütunu datetime formatına çevrildi
+- Aylık toplam satışlar hesaplandı ve grafik çizildi
+
+![sales_chart](superstore_v2_chart.png)
+
+### ✅ v3: En Çok Satılan 5 Alt Kategori
+
+- Alt kategori bazında toplam satışlar hesaplandı
+- En yüksek satışa sahip 5 kategori belirlendi
+
+![Top5_SubCategories](superstore_v3_chart.png)
 
 ## 🔍 Kullanılan Teknolojiler
 
@@ -15,20 +34,6 @@ Veri analizi Google Colab ortamında gerçekleştirilmiş, sonuçlar grafiklerle
 - Matplotlib
 - Google Colab
 - GitHub
-
----
-
-## 📁 Veri Seti
-
-Veri seti `train.csv` adlı dosyadan alınmıştır ve aşağıdaki sütunları içermektedir:
-
-- Order Date
-- City
-- Category
-- Sub-Category
-- Sales
-- Region
-- Customer Info
 
 ---
 
@@ -41,16 +46,10 @@ Veri seti `train.csv` adlı dosyadan alınmıştır ve aşağıdaki sütunları 
 
 ---
 
-## 📸 Örnek Grafik
-
-![sales_chart](superstore_v2_aylik_satis_grafigi.png)
-
----
-
 ## 🚀 Nasıl Kullanılır?
 
 1. Bu repoyu `git clone` ile bilgisayarına çekin.
-2. `superstore_analysis_v2.ipynb` dosyasını Google Colab ya da Jupyter Notebook ile açın.
+2. `superstore_analysis_v3.ipynb` dosyasını Google Colab ya da Jupyter Notebook ile açın.
 3. Gerekli kütüphaneleri yükleyin ve hücreleri çalıştırın.
 
 ---

@@ -18,7 +18,7 @@ Veri analizi Google Colab ortamında gerçekleştirilmiş, sonuçlar grafiklerle
 - `Order Date` sütunu datetime formatına çevrildi
 - Aylık toplam satışlar hesaplandı ve grafik çizildi
 
-![sales_chart](superstore_v2_chart.png)
+![sales_chart](superstore_v2_aylik_satis_grafigi.png)
 
 ### ✅ v3: En Çok Satılan 5 Alt Kategori
 
